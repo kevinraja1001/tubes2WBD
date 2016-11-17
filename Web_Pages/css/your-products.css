@@ -1,0 +1,92 @@
+#main-page{
+	margin: 10px 80px;
+}
+
+#teks-pembuka{
+	font-size: 27px;
+	padding: 20px 0;
+}
+
+#teks-pencarian{
+	font-size: 17px;
+	padding: 20px 0;
+}
+
+#name-logout{
+	text-align: right;
+}
+.item{
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+.item .date-added1{
+	font-size: 0.9em;
+}
+
+.item .date-added{
+	font-size: 0.9em;
+}
+
+.item .item-dalam{
+	padding: 0 1px;
+}
+
+
+.item .baris-item{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.item .gambar{
+}
+
+.item .gambar img{
+	width: 100px;
+	height: 100px;
+	padding: 0 10px;
+}
+
+.item .detail{
+	width: 250px;
+	margin-left: 15px;
+}
+
+.item .detail .nama{
+	font-weight: bold;
+}
+
+.item .detail .deskripsi{
+	font-size: 0.9em;
+}
+
+.item .edit-delete{
+	float: right;
+	text-align: left;
+	width: 100 px;
+}
+
+.item .edit-delete .n{
+	font-size: 0.9em;
+}
+.item .edit-delete .npurchases{
+	margin-bottom: 21px;
+}
+
+.item .edit-delete .label{
+	margin-right: 20px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.c_edit a{
+	color: goldenrod;
+}
+
+.c_delete a{
+	color: maroon;
+}
+
+#confirm-detail-produk{
+	margin-bottom: 20px;
+}

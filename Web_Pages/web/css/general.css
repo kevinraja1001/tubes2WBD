@@ -1,0 +1,85 @@
+@font-face {
+    font-family: calibri;
+    src: url(../font/calibri.ttf);
+}
+
+body{
+	font-family: 'Calibri';
+}
+
+.merah{
+	color: red;
+}
+
+.biru{
+	color: blue;
+}
+
+.hijau{
+	color: green;
+}
+
+.kuning{
+	color: orange;
+}
+
+.merahtua{
+	color: maroon;
+}
+
+#logo{
+	text-align: center;
+	padding: 25px 0;
+}
+
+#logo .teks{
+	font-size: 40px;
+}
+
+#container{
+	width: 700px;
+	/*background-color: rgba(0, 0, 0, .1);*/
+	padding: 10px;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+#navigation{
+	text-align: center;
+	padding: 20px 0;
+}
+
+#navigation ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border-spacing: 0;
+}
+
+#navigation ul li{
+	display: inline-block;
+	margin: -2.5px;
+	border: solid 1px #000;
+	border-right: none;
+	padding: 5px 5px;
+	font-size: 12px;
+	width: calc(20% - (10px * 2));
+}
+
+#navigation ul li#end{
+	border-right: solid 1px #000;
+}
+
+#navigation ul li a{
+	color: #000;
+}
+
+.nav-selected{
+	background-color: blue;
+}
+.nav-selected a{
+	color: white !important;
+}

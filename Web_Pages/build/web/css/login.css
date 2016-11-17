@@ -1,0 +1,45 @@
+#judul-utama{
+	font-size: 25px;
+}
+
+#main-page{
+	margin: 10px 80px;
+}
+
+#garis-pembatas{
+	margin: 15px 0;
+}
+
+.data-input{
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+.data-input div{
+	width: 100%;
+	font-size: 0.9em;
+}
+
+.data-input input{
+	width: calc(100% - 7px * 2 - 2px * 2);
+	padding: 7px;
+	font-size: 1em;
+}
+
+.form-submit{
+	text-align: right;
+}
+
+.form-submit input{
+	border: none;
+	padding: 8px 20px;
+	background-color: blue;
+	color: white;
+	font-size: 1em;
+	margin-bottom: 15px;
+}
+
+.pesan-kesalahan-login{
+	font-size: 0.9em;
+	color: red;
+}

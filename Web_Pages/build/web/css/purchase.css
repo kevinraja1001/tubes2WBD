@@ -1,0 +1,102 @@
+#main-page{
+	margin: 10px 80px;
+}
+
+#teks-pembuka{
+	font-size: 27px;
+	padding: 20px 0;
+}
+
+#teks-pencarian{
+	font-size: 17px;
+	padding: 20px 0;
+}
+
+#name-logout{
+	text-align: right;
+}
+
+#search-area{
+	width: 100%;
+	padding: 15px 0;
+}
+
+#search-area input[type="submit"]{
+	width: 50px;
+	padding: 7px 0;
+	border: unset;
+	background-color: blue;
+	color: white;
+}
+
+#search-area input[type="text"]{
+	padding: 7px;
+	border: unset;
+	background-color: rgba(0, 0, 0, 0.07);
+	width: calc(100% - 7px * 2 - 50px - 5px);
+}
+
+#search-area div{
+	padding: 20px 0;
+}
+
+.item{
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+.item .baris-item{
+	display: inline-block;
+	margin: auto;
+	vertical-align: top;
+}
+
+.item .owner{
+	font-weight: bold;
+}
+
+.item .gambar{
+}
+
+.item .gambar img{
+	width: 100px;
+	height: 100px;
+	padding: 0 10px;
+}
+
+.item .detail{
+}
+
+.item .detail .nama{
+	font-weight: bold;
+}
+
+.item .detail .deskripsi{
+	font-size: 0.9em;
+}
+
+p.desc{
+	font-size: 0.9em;
+}
+
+.item .like-buy{
+	margin-left:50px;
+	text-align: left;
+}
+
+.item .like-buy .n{
+	font-size: 0.9em
+}
+.item .like-buy .npurchases{
+	margin-bottom: 21px;
+}
+
+.item .like-buy .label{
+	margin-right: 20px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.c_purchases a{
+	color: green;
+}
